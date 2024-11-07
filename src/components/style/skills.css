@@ -1,0 +1,100 @@
+/* Section styling */
+.skills-section {
+  background-color: rgb(146, 179, 202);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem; 
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1024px;
+  text-align: center;
+  width: 100%;
+ 
+}
+
+/* Heading styling */
+.skills-heading {
+  font-weight: bold;
+  color: rgb(6, 63, 103);
+  margin-bottom: 2rem;
+  font-family: serif;
+  font-size: 5rem;
+  animation: pulse 1s infinite;
+  transform: translateX(-100%);
+  animation: slideInRight 1.5s forwards;
+}
+
+/* Grid styling */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  transform: translateX(-100%);
+  animation: slideInLeft 1.5s forwards;
+}
+
+@media (min-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .skills-grid {
+      grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Card styling */
+.skill-card {
+  background-color: rgb(211, 232, 249);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 8px rgb(22, 93, 143);
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+
+}
+
+.skill-card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgb(107, 182, 240);
+}
+
+/* Text styling */
+.skill-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: serif;
+  color: rgb(25, 65, 93);
+}
+
+.skill-level {
+  color: rgb(11, 86, 139);
+  margin-top: 0.5rem;
+}
+
+/* Animation for pulse effect */
+@keyframes pulse {
+  0%, 100% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.05);
+  }
+}
+
+@keyframes slideInLeft {
+  0% {
+      transform: translateX(-100%);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}

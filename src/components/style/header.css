@@ -1,0 +1,120 @@
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem ;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;   
+}
+.logo{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem ;
+    font-family: serif;
+    transform: translateX(-100%);
+    animation: slideInLeft 1.5s forwards;
+    
+}
+.logo span{
+    color: rgb(137, 179, 209);
+    font-family: serif;
+}
+
+.nav__button{
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+    transform: translatex(-100%);
+    animation: slideInLeft 1.5s forwards;
+}
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.links {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .links {
+        display: block;
+    }
+}
+
+.nav__list *:not([hidden]) + *{
+        margin-left: 2.5rem; 
+        font-family: sans-serif;
+          
+}
+.nav__link{
+    display: inline-flex;
+    transition: 0.3s linear; 
+}
+.nav__link:hover{
+    color: rgb(137, 179, 209);
+    scale: 1.1;
+    transition: 0.2s linear;
+    font-size: 25px;
+}
+
+/* HUMBURG STYLE  */
+.humburg__menu{
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .humburg {
+        display: none;
+    }
+}
+.humburg__menu{
+    font-size: 48px;
+    line-height: 1; 
+    font-weight: 700px;
+    transition: 0.3s linear;
+    
+}
+
+.humburg__menu:hover{
+    scale: 1.1;
+    color: rgb(137, 179, 209);
+}
+.sheet__contant{
+    background-color:#FFFF;
+}
+.hum__list{
+    margin-top: 20px;
+}
+.hum__link{
+    padding: 15px;
+    text-align: center;
+    color: rgb(17, 74, 114);
+}
+.hum__link *:not([hidden]) + *{
+    margin-left: 2.5rem;
+    transition: 0.2s linear;
+}
+.hum__link:hover{
+    scale: 1.1;
+    color: white;
+    background-color: rgb(137, 179, 209);
+    transition: 0.2s linear;
+    text-align: center;
+
+}
+
+
