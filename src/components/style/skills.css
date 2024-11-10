@@ -32,7 +32,6 @@
 
 /* Grid styling */
 .skills-grid {
-  justify-content: center;
   align-items: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
