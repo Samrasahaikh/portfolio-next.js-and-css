@@ -113,7 +113,7 @@ section {
 }
 
 .sub__heading {
-    font-size: 30px;
+    font-size: 32px;
     font-family: serif;
     color: white;
     font-weight: 700;
@@ -142,7 +142,7 @@ section {
 }
 
 .button button {
-    padding: 10px 20px;
+    padding: 5px 20px;
     font-size: 20px;
     font-weight: 300;
     cursor: pointer;
