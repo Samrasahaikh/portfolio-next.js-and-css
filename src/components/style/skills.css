@@ -32,7 +32,7 @@
 
 /* Grid styling */
 .skills-grid {
-  align-items: center;
+  justify-items:center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
