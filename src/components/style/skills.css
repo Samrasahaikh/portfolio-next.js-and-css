@@ -63,6 +63,7 @@
 .skill-card {
   background-color: rgb(211, 232, 249);
   padding: 1.5rem;
+  height: 8rem;
   border-radius: 0.75rem;
   box-shadow: 0 4px 8px rgb(22, 93, 143);
   transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
