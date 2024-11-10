@@ -1,6 +1,7 @@
 /* Main container */
 .contact-container {
-  min-height: 100vh;
+  width: 100%;
+  height: auto;
   background-color: rgb(73, 101, 121); /* Background */
   display: flex;
   align-items: center;

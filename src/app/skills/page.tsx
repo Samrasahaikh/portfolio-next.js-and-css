@@ -3,7 +3,10 @@ import "@/components/style/skills.css";
 
 export default function Skills() {
   const skills = [
-    { name: "Graphic Designing", level: "Advanced" },
+    { name: "Photoshop", level: "Advanced" },
+    { name: "Adobe Illustrator", level: "Advanced" },
+    { name: "Ms Word", level: "Advanced" },
+    { name: "Ms Excel", level: "Advanced" },
     { name: "HTML", level: "Advanced" },
     { name: "CSS", level: "Advanced" },
     { name: "JavaScript", level: "Intermediate" },
@@ -11,6 +14,7 @@ export default function Skills() {
     { name: "Tailwind CSS", level: "Advanced" },
     { name: "React", level: "Intermediate" },
     { name: "Next.js", level: "Intermediate" },
+    { name: "Figma", level: "Intermediate" },
   ];
 
   return (
