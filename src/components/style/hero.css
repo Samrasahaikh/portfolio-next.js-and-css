@@ -58,8 +58,8 @@ section {
 }
 
 .img__section .Image {
-    width: 80%;
-    height: auto;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
     border: 6px solid rgb(7, 58, 95);
     box-shadow: 0 0 50px rgb(152, 158, 162) ;
@@ -73,18 +73,16 @@ section {
 
 @media (min-width: 1024px) {
     .img__section .Image {
-        margin-left: 60px;
+        width: 20rem;
+        height: 20rem;
+        margin-left: 80%;
         margin-bottom: 0px;
-        width: 100%;
-        height: 50%;
     }
 }
 @media (min-width: 768px) {
     .img__section .Image {
         margin-top: 30px;
         margin-bottom: 0px;
-        width: 100%;
-        height: 50%;
     }
 }
 
@@ -114,14 +112,13 @@ section {
 
 @media (min-width: 1024px) {
     .Main__heading {
-        font-size: 60px;
+        font-size: 65px;
         line-height: 1.2;
         margin-right: 40px;
     }
 }
 @media (min-width: 768px) {
     .Main__heading {
-        font-size: 35px;
         line-height: 1.2;
         margin-right: 30px;
     }
@@ -149,7 +146,6 @@ section {
 }
 @media (min-width: 768px) {
     .sub__heading {
-        font-size: 25px;
         line-height: 1.2;
         margin-right: 30px;
     }

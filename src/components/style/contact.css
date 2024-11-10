@@ -1,7 +1,7 @@
 /* Main container */
 .contact-container {
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-color: rgb(73, 101, 121); /* Background */
   display: flex;
   align-items: center;

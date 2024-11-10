@@ -5,6 +5,7 @@ import "@/components/style/about.css";
 
 export default function About() {
   return (
+    <main>
     <div className="about-container">
       
       {/* Image section */}
@@ -25,5 +26,6 @@ export default function About() {
         </p>
       </div>
     </div>
+    </main>
   );
 }
