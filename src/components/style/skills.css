@@ -24,7 +24,7 @@
   color: rgb(6, 63, 103);
   margin-bottom: 2rem;
   font-family: serif;
-  font-size: 5rem;
+  font-size: 2.5rem;
   animation: pulse 1s infinite;
   transform: translateX(-100%);
   animation: slideInRight 1.5s forwards;
@@ -34,7 +34,7 @@
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 1rem;
   width: 100%;
   transform: translateX(-100%);
   animation: slideInLeft 1.5s forwards;
